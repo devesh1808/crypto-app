@@ -9,7 +9,7 @@ const Navbar = () => {
     <div>
       <div className="nav-container">
         <div className="logo-container">
-            <Avatar src={icon} size={large} />
+            <Avatar src={icon} size="large" />
             <Typography.Title level={2} className="logo">
                 <Link to="/">Cryptoverse</Link>
             </Typography.Title>
